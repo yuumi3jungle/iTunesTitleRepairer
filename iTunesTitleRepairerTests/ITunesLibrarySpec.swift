@@ -16,7 +16,7 @@ class ITunesLibrarySpec: QuickSpec {
             }
             it("iTunesLibary XMLファイルが存在しない場合はErrorを戻す") {
                 let err = lib.load("./iTunesTitleRepairerTests/NOiTunesLibrary.xml")
-                expect(err.localizedDescription).to(contain("no such file"))
+                expect(err!.localizedDescription).to(contain("no such file"))
             }
         }
         describe("#save") {

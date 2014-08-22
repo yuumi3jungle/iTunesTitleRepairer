@@ -28,7 +28,7 @@ class ITunesLibrary: NSObject {
         return NSHomeDirectory() + "/Music/iTunes/iTunes Music Library.xml"
     }
     
-    func load(libraryXmlPath: String) -> NSError! {
+    func load(libraryXmlPath: String) -> NSError? {
         var error:NSError?;
 
         let data = NSData.dataWithContentsOfFile(libraryXmlPath, options: nil, error: &error)
@@ -45,7 +45,7 @@ class ITunesLibrary: NSObject {
         return nil
     }
     
-    func save(saveFolderPath: String) -> NSError! {
+    func save(saveFolderPath: String) -> NSError? {
         var error:NSError?;
 
         let data = NSPropertyListSerialization.dataWithPropertyList(libaryDict,
@@ -98,7 +98,7 @@ class ITunesLibrary: NSObject {
         return titles
     }
     
-    func replaceTiles(ids: [TrackId], _ titles: [String]) -> NSError! {
+    func replaceTiles(ids: [TrackId], _ titles: [String]) -> NSError? {
         if ids.count != titles.count {
             return NSError.errorWithDomain("The number of titles is not the same as the number of tracks", code: 10001, userInfo:  nil)
         }
@@ -117,9 +117,5 @@ class ITunesLibrary: NSObject {
         }
         
         return nil
-    }
-        
-    private func escapeFileName(fileName: String) -> String {
-        return fileName.stringByReplacingOccurrencesOfString("/", withString:"_")
     }
 }
