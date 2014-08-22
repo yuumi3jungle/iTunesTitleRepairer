@@ -1,0 +1,119 @@
+<plist version="1.0">
+<dict>
+  <key>Major Version</key><integer>1</integer>
+  <key>Minor Version</key><integer>1</integer>
+  <key>Date</key><date>2014-08-12T02:02:20Z</date>
+  <key>Application Version</key><string>11.3.1</string>
+  <key>Features</key><integer>5</integer>
+  <key>Show Content Ratings</key><true/>
+  <key>Music Folder</key><string>file://localhost/Users/yy/Music/iTunes/iTunes%20Media/</string>
+  <key>Library Persistent ID</key><string>C301E22D3C6EFC74</string>
+  <key>Tracks</key>
+  <dict>
+    <key>5791</key>
+    <dict>
+      <key>Track ID</key><integer>5791</integer>
+      <key>Name</key><string>震える惑星（ほし）</string>
+      <key>Artist</key><string>高橋幸宏</string>
+      <key>Album</key><string>A Day in the next life</string>
+      <key>Genre</key><string>Japanese Pop</string>
+      <key>Kind</key><string>MPEG オーディオファイル</string>
+      <key>Size</key><integer>4960246</integer>
+      <key>Total Time</key><integer>309368</integer>
+      <key>Track Number</key><integer>2</integer>
+      <key>Date Modified</key><date>2012-11-12T01:01:29Z</date>
+      <key>Date Added</key><date>2012-11-02T02:35:28Z</date>
+      <key>Bit Rate</key><integer>128</integer>
+      <key>Sample Rate</key><integer>44100</integer>
+      <key>Play Count</key><integer>122</integer>
+      <key>Play Date</key><integer>3490684090</integer>
+      <key>Play Date UTC</key><date>2014-08-12T01:28:10Z</date>
+      <key>Skip Count</key><integer>1</integer>
+      <key>Skip Date</key><date>2013-01-02T02:04:33Z</date>
+      <key>Sort Album</key><string>Day in the next life</string>
+      <key>Persistent ID</key><string>1B2694FDC4B76C5B</string>
+      <key>Track Type</key><string>File</string>
+      <key>Location</key><string>file://localhost/Users/yy/Music/iTunes/iTunes%20Media/Music/%E9%AB%98%E6%A9%8B%E5%B9%B8%E5%AE%8F/A%20Day%20in%20the%20next%20life/02%20%E9%9C%87%E3%81%88%E3%82%8B%E6%83%91%E6%98%9F%EF%BC%88%E3%81%BB%E3%81%97%EF%BC%89.mp3</string>
+      <key>File Folder Count</key><integer>5</integer>
+      <key>Library Folder Count</key><integer>1</integer>
+    </dict>
+    <key>5793</key>
+    <dict>
+      <key>Track ID</key><integer>5793</integer>
+      <key>Name</key><string>愛はつよい～Stronger Than Iron～</string>
+      <key>Artist</key><string>高橋幸宏</string>
+      <key>Album</key><string>A Day in the next life</string>
+      <key>Genre</key><string>Japanese Pop</string>
+      <key>Kind</key><string>MPEG オーディオファイル</string>
+      <key>Size</key><integer>4487566</integer>
+      <key>Total Time</key><integer>279823</integer>
+      <key>Track Number</key><integer>3</integer>
+      <key>Date Modified</key><date>2012-11-12T01:01:48Z</date>
+      <key>Date Added</key><date>2012-11-02T02:35:28Z</date>
+      <key>Bit Rate</key><integer>128</integer>
+      <key>Sample Rate</key><integer>44100</integer>
+      <key>Play Count</key><integer>122</integer>
+      <key>Play Date</key><integer>3490684370</integer>
+      <key>Play Date UTC</key><date>2014-08-12T01:32:50Z</date>
+      <key>Sort Album</key><string>Day in the next life</string>
+      <key>Persistent ID</key><string>07279FDAB05A4DCC</string>
+      <key>Track Type</key><string>File</string>
+      <key>Location</key><string>file://localhost/Users/yy/Music/iTunes/iTunes%20Media/Music/%E9%AB%98%E6%A9%8B%E5%B9%B8%E5%AE%8F/A%20Day%20in%20the%20next%20life/03%20%E6%84%9B%E3%81%AF%E3%81%A4%E3%82%88%E3%81%84%EF%BD%9EStronger%20Than%20Iron%EF%BD%9E.mp3</string>
+      <key>File Folder Count</key><integer>5</integer>
+      <key>Library Folder Count</key><integer>1</integer>
+    </dict>
+    <key>6257</key>
+    <dict>
+      <key>Track ID</key><integer>6257</integer>
+      <key>Name</key><string>AudioTrack 01</string>
+      <key>Artist</key><string>高橋幸宏</string>
+      <key>Album</key><string>Saravah!</string>
+      <key>Genre</key><string>Japanese Pop</string>
+      <key>Kind</key><string>MPEG オーディオファイル</string>
+      <key>Size</key><integer>4734386</integer>
+      <key>Total Time</key><integer>289776</integer>
+      <key>Track Number</key><integer>1</integer>
+      <key>Date Modified</key><date>2008-09-29T15:09:39Z</date>
+      <key>Date Added</key><date>2012-11-02T02:35:28Z</date>
+      <key>Bit Rate</key><integer>128</integer>
+      <key>Sample Rate</key><integer>44100</integer>
+      <key>Play Count</key><integer>38</integer>
+      <key>Play Date</key><integer>3487619020</integer>
+      <key>Play Date UTC</key><date>2014-07-07T14:03:40Z</date>
+      <key>Skip Count</key><integer>1</integer>
+      <key>Skip Date</key><date>2013-02-09T02:07:40Z</date>
+      <key>Artwork Count</key><integer>1</integer>
+      <key>Persistent ID</key><string>7C78D1C62A4690D8</string>
+      <key>Track Type</key><string>File</string>
+      <key>Location</key><string>file://localhost/Users/yy/Music/iTunes/iTunes%20Media/Music/%E9%AB%98%E6%A9%8B%E5%B9%B8%E5%AE%8F/Saravah!/01%20AudioTrack%2001.mp3</string>
+      <key>File Folder Count</key><integer>5</integer>
+      <key>Library Folder Count</key><integer>1</integer>
+    </dict>
+    <key>6259</key>
+    <dict>
+      <key>Track ID</key><integer>6259</integer>
+      <key>Name</key><string>AudioTrack 02</string>
+      <key>Artist</key><string>高橋幸宏</string>
+      <key>Album</key><string>Saravah!</string>
+      <key>Genre</key><string>Japanese Pop</string>
+      <key>Kind</key><string>MPEG オーディオファイル</string>
+      <key>Size</key><integer>4211519</integer>
+      <key>Total Time</key><integer>257097</integer>
+      <key>Track Number</key><integer>2</integer>
+      <key>Date Modified</key><date>2008-09-29T15:09:40Z</date>
+      <key>Date Added</key><date>2012-11-02T02:35:28Z</date>
+      <key>Bit Rate</key><integer>128</integer>
+      <key>Sample Rate</key><integer>44100</integer>
+      <key>Play Count</key><integer>38</integer>
+      <key>Play Date</key><integer>3487619277</integer>
+      <key>Play Date UTC</key><date>2014-07-07T14:07:57Z</date>
+      <key>Artwork Count</key><integer>1</integer>
+      <key>Persistent ID</key><string>C6A453171456AC40</string>
+      <key>Track Type</key><string>File</string>
+      <key>Location</key><string>file://localhost/Users/yy/Music/iTunes/iTunes%20Media/Music/%E9%AB%98%E6%A9%8B%E5%B9%B8%E5%AE%8F/Saravah!/02%20AudioTrack%2002.mp3</string>
+      <key>File Folder Count</key><integer>5</integer>
+      <key>Library Folder Count</key><integer>1</integer>
+    </dict>
+  </dict>
+</dict>
+</plist>

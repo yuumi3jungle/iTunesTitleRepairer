@@ -1,0 +1,3 @@
+[submodule "Quick"]
+	path = Quick
+	url = https://github.com/bendjones/Quick.git
