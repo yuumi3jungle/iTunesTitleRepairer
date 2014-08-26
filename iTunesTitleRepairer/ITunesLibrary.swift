@@ -87,7 +87,7 @@ class ITunesLibrary: NSObject {
 
     class func parse(titlesChunk: String) -> [String] {
         var titles: [String] = []
-        let regex = NSRegularExpression.regularExpressionWithPattern("\\d+\\.\\s*(.*?)(\\s*試聴する)?$", options: nil, error: nil)
+        let regex = NSRegularExpression.regularExpressionWithPattern("\\d+\\.\\s*(.*?)(\\s*試聴する|\\s+\\d+:\\d+.*楽曲を購入.*)?$", options: nil, error: nil)
         
         for line in titlesChunk.componentsSeparatedByString("\n") {
             if var matches = regex?.firstMatchInString(line, options: nil, range: NSMakeRange(0, countElements(line))) {

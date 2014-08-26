@@ -64,9 +64,13 @@ class ITunesLibrarySpec: QuickSpec {
                 let chunk = "1. VOLARE (NEL BLU DIPINTO DI BLU) / ボラーレ\t試聴する\n" +
                     "2. SARAVAH! / サラヴァ!\t試聴する\n" +
                     "1. 名もない恋愛\n" +
-                    "2. 足ながおじさんになれずに"
+                    "2. 足ながおじさんになれずに\n" +
+                    "%E8%A9%A6%E8%81%B4%E3%81%99%E3%82%8B\t  1. 二人の迷路\t 5:31\t￥ 257\t  楽曲を購入 \n" +
+                    "%E8%A9%A6%E8%81%B4%E3%81%99%E3%82%8B\t  2. Negative\t 4:38\t￥ 257\t  楽曲を購入 \n"
+
                 expect(ITunesLibrary.parse(chunk)).to(equal(
-                    ["VOLARE (NEL BLU DIPINTO DI BLU) / ボラーレ", "SARAVAH! / サラヴァ!", "名もない恋愛", "足ながおじさんになれずに"]))
+                    ["VOLARE (NEL BLU DIPINTO DI BLU) / ボラーレ", "SARAVAH! / サラヴァ!", "名もない恋愛", "足ながおじさんになれずに",
+                     "二人の迷路", "Negative"]))
             }
         }
         describe("#replaceTiles") {
