@@ -53,8 +53,8 @@ class ITunesLibrary: NSObject {
         if data == nil {
             return error
         }
-        if !data.writeToFile(saveFolderPath.stringByAppendingPathComponent(ITunesLibrary.LibraryXmlFileName),
-            options: NSDataWritingOptions.AtomicWrite, error: &error) {
+        if data?.writeToFile(saveFolderPath.stringByAppendingPathComponent(ITunesLibrary.LibraryXmlFileName),
+            options: NSDataWritingOptions.AtomicWrite, error: &error) == nil {
             return error
         }
 
